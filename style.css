@@ -1,0 +1,54 @@
+header {
+    background-color: #0B1C51;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 52px;
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+   display: flex;
+   list-style: none; 
+}
+
+header nav ul li a {
+    font-family: Montserrat;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    header h1 {
+        font-size: 48 px;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+
+    header nav {
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+
+    header nav ul li a:hover {
+        color: #bdbdbd;
+    }
+
+}
